@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Zorve-Login</title>
+  </head>
+  <body>
+    <header class="bg-[#000A3D] px-6 sticky top-0 z-[4]">
+      <div class="max-w-[1200px] h-[80px] mx-auto flex items-center justify-between"  >
+        <div class="w-24 h-auto items-center justify-center flex">
+            <img src="../images/zorvelogo.png" alt="" >
+        </div>
+            <p class="text-[#D89A41] font-bold text-sm sm:text-lg"><a href="./register.html" >Register / <a href="./login.html">Login</a></a></p>
+      </div>
+    </header>
+    <main class="p-4 flex items-center justify-center ">
+        <div class="shadow-lg space-y-6 p-8 max-w-[700px] border rounded-2xl mx-auto w-full ">
+                <div class="flex flex-col items-center gap-12 justify-center justify-center items-center ">
+                    <p class="text-2xl md:text-3xl font-semibold text-[#DFA94C]">Register</p>
+                    <img src="../svgs/register.gif" alt="" class="rotate-[16deg] ml-[70px] h-[200px] md:h-[310px]">
+                </div>
+                <div class="space-y-4">
+                    <div class="space-y-2">
+                        <label for="" class="text-[#4B4B4B] font-semibold ">Name</label>
+                        <input type="text" class="border-[1px] border-[#8B8B8B] flex-1 w-full outline-none px-3 py-2 rounded-md placeholder-[#4B4B4B]" placeholder="Your Name" >
+                    </div>
+                    <div class="space-y-2">
+                        <label for="" class="text-[#4B4B4B] font-semibold ">Phone Number</label>
+                        <input type="text" class="border-[1px] border-[#8B8B8B] flex-1 w-full outline-none px-3 py-2 rounded-md placeholder-[#4B4B4B]" placeholder="+92 3144578 523" >
+                    </div>
+                    <div class="space-y-2">
+                        <label for="" class="text-[#4B4B4B] font-semibold ">Email Adress</label>
+                        <input type="text" class="border-[1px] border-[#8B8B8B] flex-1 w-full outline-none px-3 py-2 rounded-md placeholder-[#4B4B4B]" placeholder="Example@gmail.com" >
+                    </div>
+                    <div class="space-y-2">
+                        <label for="" class="text-[#4B4B4B] font-semibold ">Password</label>
+                        <input type="text" class="border-[1px] border-[#8B8B8B] flex-1 w-full outline-none px-3 py-2 rounded-md placeholder-[#4B4B4B]" placeholder="**********" >
+                    </div>
+                </div>
+                <div class=" bg-gradient-to-r from-[#DFA94C] cursor-pointer to-[#F2E398] flex items-center justify-center p-3 rounded-lg">
+                <p class="text-[#4B4B4B] font-semibold">Register</p>
+                </div>
+                <div class="flex justify-end">
+                     
+                  <a href="./login.html">
+                    <p class="cursor-pointer text-[#d99a41] font-semibold text-sm md:text-lg">Login<span class="text-blue-600 text-sm"> Or </span>Signup</p>
+                  </a>
+                </div>
+        </div>
+    </main>
+    <footer class="bg-[#000A3D] mt-8 px-6 py-6">
+        <div class="max-w-[1200px] mx-auto justify-between flex flex-col space-y-8 lg:flex-row  !gap-6 ">
+            <div class="space-y-6">
+                <div class="w-24 h-auto items-center justify-center flex">
+                    <img src="../images/zorvelogo.png" alt="" >
+                </div>
+                <p class="max-w-[400px] text-white">ZORVE is committed to providing a seamless shopping experience. Enjoy secure payment options and swift delivery to your doorstep.</p>
+                <div class="space-y-4">
+                    <p class="text-white">FOLLOW US</p>
+                    <div class="flex items-center gap-2 cursor-pointer">
+                        <img src="./images/Vector.png" alt="">
+                        <p class="text-white">Facebook</p>
+                    </div>
+                    <div class="flex items-center gap-2 cursor-pointer">
+                        <img src="./images/Vector (1).png" alt="">
+                        <p class="text-white">Whatsapp</p>
+                    </div>
+                </div>
+            </div>
+            <div class="space-y-6 flex  flex-col justify-end">
+                <div class="space-y-1 ">
+                    <h2 class="text-white text-lg">NEWSLETER</h2>
+                    <p class="text-white">Please Enter your email adsress , to get updates</p>
+                </div>
+                <input type="text" name="" id="" class="outline-none px-4 py-2 border rounded-lg placeholder-[#000A3D] text-[#000A3D]" placeholder="Enter Here">
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
